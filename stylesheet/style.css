@@ -69,7 +69,7 @@ a{
 }
 
 #navbar .navitem a:hover::after{
-    width: 80%;
+    width: 100%;
     transition: 0.8s;
     background: #230945;
 }
