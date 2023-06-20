@@ -5,10 +5,15 @@
 @media screen and (max-width: 768px){
     #navbar .navitem .bar{
         display: inline-block;
+        margin-right: 5px;
     }
 
     #navbar .navitem .nav{
         display: none;
+    }
+
+    #contentpart .container .part{
+        width: 100%;
     }
 }
 
