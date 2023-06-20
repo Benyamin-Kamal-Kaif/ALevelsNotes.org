@@ -1,0 +1,17 @@
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 768px){
+    #navbar .navitem .bar{
+        display: inline-block;
+    }
+
+    #navbar .navitem .nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width:479px){
+
+}

@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    width: 1240px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -49,16 +49,24 @@ a{
     font-family: 'Outfit', sans-serif;
 }
 
-#navbar .navitem a{
+#navbar .navitem .nav{
+    position: relative;
+}
+
+#navbar .navitem .bar{
+    display: none;
+}
+
+#navbar .item{
     color: #230945;
     margin-left: 22px;
     font-size: 19px;
     font-family: 'Outfit', sans-serif;
     font-weight: 800;
-    position: relative;
 }
 
-#navbar .navitem a:after{
+
+#navbar .navitem .nav:after{
     content:'';
     position: absolute;
     width: 0px;
@@ -68,7 +76,7 @@ a{
     background: #230945;
 }
 
-#navbar .navitem a:hover::after{
+#navbar .navitem .nav:hover::after{
     width: 100%;
     transition: 0.8s;
     background: #230945;
