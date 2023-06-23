@@ -67,7 +67,7 @@ a{
 
 
 #navbar .navitem .nav:after{
-    content:'';
+    content: '';
     position: absolute;
     width: 0px;
     height: 3px;
