@@ -1,10 +1,16 @@
 body{
-    background: #230945;
+    background: var(--primary_color);
 }
 
 *{
     padding: 0px;
     margin: 0px;
+}
+
+:root{
+    --primary_color: #230945;
+    --secondary_color: #D9D9D9;
+    --primary_font: 'Outfit', sans-serif;
 }
 
 .container{
@@ -25,7 +31,7 @@ a{
 
 #navbar .container{
     margin-top: 20px;
-    background: #D9D9D9;
+    background: var(--secondary_color);
     border-radius: 15px;
 }
 
@@ -44,9 +50,9 @@ a{
 
 #navbar .logo a{
     font-weight: 700;
-    color: #230945;
+    color: var(--primary_color);
     font-size: 22px;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--primary_font);
 }
 
 #navbar .navitem .nav{
@@ -58,10 +64,10 @@ a{
 }
 
 #navbar .item{
-    color: #230945;
+    color: var(--primary_color);
     margin-left: 22px;
     font-size: 19px;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--primary_font);
     font-weight: 800;
 }
 
@@ -73,13 +79,13 @@ a{
     height: 3px;
     bottom: 0px;
     left: 0px;
-    background: #230945;
+    background: var(--primary_color);
 }
 
 #navbar .navitem .nav:hover::after{
     width: 100%;
     transition: 0.8s;
-    background: #230945;
+    background: var(--primary_color);
 }
 
 /********** content css ***********/
@@ -93,7 +99,7 @@ a{
 
 #contentpart .container .part{
     width: 49%;
-    background: #D9D9D9;
+    background: var(--secondary_color);
     border-radius: 15px;
 
     margin-top: 30px;
@@ -111,7 +117,7 @@ a{
     margin-bottom: -25px;
     font-size: 48px;
     font-family: 'Outfit',sans-serif;
-    color: #230945;
+    color: var(--primary_color);
     line-height: 23px;
 }
 
@@ -124,8 +130,8 @@ a{
     margin: 0px 72px;
     margin-bottom: 25px;
     padding: 23px 0px;
-    background: #230945;
-    color: #D9D9D9;
+    background: var(--primary_color);
+    color: var(--secondary_color);
     border-radius: 15px;
     font-size: 20px;
     font-family: 'Outfit',sans-serif;
@@ -148,7 +154,7 @@ a{
 #contentpart .container .subject:hover .hover::after{
     width: 100%;
     transition: 0.8s;
-    background: #D9D9D9;
+    background: var(--secondary_color);
     border-radius: 15px;
 }
 
@@ -160,7 +166,7 @@ a{
 }
 
 #footer-part .container{
-    background: #D9D9D9;
+    background: var(--secondary_color);
     text-align: center;
     border-radius: 15px;
 }
@@ -168,7 +174,7 @@ a{
 #footer-part .container .logo a{
     font-size: 22px;
     font-family: 'Outfit',sans-serif;
-    color: #230945;
+    color: var(--primary_color);
     font-weight: 700;
     margin-top: 22px;
     margin-bottom: 22px;
@@ -181,7 +187,7 @@ a{
 #footer-part .container .flex-container .socials a{
     font-size: 35px;
     margin: 0 10px;
-    color:#230945;
+    color:var(--primary_color);
 }
 
 #footer-part .container .copyright p{
@@ -190,11 +196,11 @@ a{
     font-family: 'Outfit',sans-serif;
     margin-top: 22px;
     padding-bottom: 22px;
-    color: #230945;
+    color: var(--primary_color);
     
 }
 
 #footer-part .container .copyright a{
-    color: #230945;
+    color: var(--primary_color);
 }
 
