@@ -33,6 +33,7 @@ a{
     margin-top: 20px;
     background: var(--secondary_color);
     border-radius: 15px;
+    position: relative;
 }
 
 #navbar .container .logo{
@@ -88,9 +89,50 @@ a{
     background: var(--primary_color);
 }
 
+/*********** option css **********/
+
+
+.options.active{
+    display: none;   
+}
+
+.options .container{
+    background: var(--secondary_color);
+    padding: 20px 0px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    transition: height 0.3s ease;
+}
+
+.options .container .hover{
+    font-family: var(--primary_font);
+    color: var(--primary_color);
+    font-size: 19px;
+    font-weight: 800;
+    position: relative;
+}
+
+.options .container .hover:after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    bottom: 0px;
+    left: 0px;
+    background: var(--primary_color);
+}
+
+.options .container .option:hover .hover::after{
+    width: 100%;
+    transition: 0.8s;
+    background: var(--primary_color);
+}
+
+
 /********** content css ***********/
-
-
 
 #contentpart .flex-container{
     justify-content: space-between;
@@ -101,7 +143,6 @@ a{
     width: 49%;
     background: var(--secondary_color);
     border-radius: 15px;
-
     margin-top: 30px;
 }
 
