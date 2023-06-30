@@ -104,6 +104,7 @@ a{
     flex-direction: column;
     text-align: center;
     margin-top: 30px;
+    transition: height 0.3s ease;
 }
 
 .options .container .hover{
@@ -130,42 +131,69 @@ a{
     background: var(--primary_color);
 }
 
+/************** location part  *********/
 
-/********** content css ***********/
+#location-part .container{
+    background: var(--secondary_color);
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
 
-#contentpart .flex-container{
+#location-part .container span{
+    margin: 0px 5px;
+    color: black;
+}
+
+#location-part .container p{
+    color: var(--primary_color);
+    font-family: var(--primary_font);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#location-part .container a{
+    color: var(--primary_color);
+    font-family: var(--primary_font);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/************* topic-part ***********/
+
+#topic-part .flex-container{
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#contentpart .container .part{
-    width: 49%;
+#topic-part .container .subject{
+    width: 100%;
     background: var(--secondary_color);
     border-radius: 15px;
     margin-top: 30px;
 }
 
-#contentpart .container .part .flex-container{
-    flex-direction: column;
-    text-align: center;
-}
-
-#contentpart .container p{
+#topic-part .container p{
     font-weight: 700;
     text-align: center;
     margin-top: 45px;
     margin-bottom: -25px;
-    font-size: 48px;
+    font-size: 30px;
     font-family: 'Outfit',sans-serif;
     color: var(--primary_color);
     line-height: 23px;
 }
 
-#contentpart .container p .caie{
+#topic-part .container .subject .flex-container{
+    flex-direction: column;
+    text-align: center;
+}
+
+#topic-part .container p .caie{
     font-size: 19px;
 }
 
-#contentpart .container .subject{
+#topic-part .container .topic{
     display: inline-block;
     margin: 0px 72px;
     margin-bottom: 25px;
@@ -178,11 +206,11 @@ a{
     font-weight: 400;
 }
 
-#contentpart .container .subject span{
+#topic-part .container .topic span{
     position: relative;
 }
 
-#contentpart .container .subject span:after{
+#topic-part .container .topic span:after{
     content:'';
     position: absolute;
     width: 0px;
@@ -191,14 +219,14 @@ a{
     left: 0px;
 }
 
-#contentpart .container .subject:hover .hover::after{
+#topic-part .container .topic:hover .hover::after{
     width: 100%;
     transition: 0.8s;
     background: var(--secondary_color);
     border-radius: 15px;
 }
 
-/*************** footer-part css *****************/
+/************ footer-part css *************/
 
 #footer-part{
     margin-top: 30px;
@@ -243,6 +271,3 @@ a{
 #footer-part .container .copyright a{
     color: var(--primary_color);
 }
-
-
-
