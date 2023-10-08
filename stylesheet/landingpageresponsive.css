@@ -17,6 +17,10 @@
     #contentpart .container .part{
         width: 100%;
     }
+
+    #contentpart .container .content{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:479px){

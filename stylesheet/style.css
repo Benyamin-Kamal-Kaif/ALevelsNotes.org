@@ -139,7 +139,7 @@ a{
 }
 
 #contentpart .container .part{
-    width: 49%;
+    width: 100%;
     background: var(--secondary_color);
     border-radius: 15px;
     margin-top: 30px;
@@ -155,10 +155,10 @@ a{
     text-align: center;
     margin-top: 45px;
     margin-bottom: -25px;
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Outfit',sans-serif;
     color: var(--primary_color);
-    line-height: 23px;
+    line-height: 30px;
 }
 
 #contentpart .container p .caie{

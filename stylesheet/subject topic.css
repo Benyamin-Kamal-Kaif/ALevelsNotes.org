@@ -167,7 +167,7 @@ a{
 }
 
 #topic-part .container .subject{
-    width: 100%;
+    width: 49%;
     background: var(--secondary_color);
     border-radius: 15px;
     margin-top: 30px;

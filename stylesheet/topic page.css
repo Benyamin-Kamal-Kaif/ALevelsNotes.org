@@ -1,26 +1,4 @@
-/****** content *******/
-
-#contentpart{
-    margin-top: 30px;
-}
-
-#contentpart .container .content{
-    background: var(--secondary_color);
-    width: 70%;
-    height: 100px;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-#contentpart .container .topic-select{
-    width: 28%;
-    height: 100px;
-    border-radius: 15px;
-    background: var(--secondary_color);
-}
-
 /************** location part  *********/
-
 #location-part .container{
     background: var(--secondary_color);
     margin-top: 20px;
@@ -46,3 +24,24 @@
     font-weight: 700;
     font-size: 15px;
 }
+
+/****** content *******/
+#contentpart{
+    margin-top: 30px;
+}
+
+#contentpart .container .content{
+    background: var(--secondary_color);
+    width: 70%;
+    height: 100px;
+    border-radius: 15px;
+}
+
+#contentpart .container .topic-select{
+    width: 28%;
+    height: 100px;
+    border-radius: 15px;
+    background: var(--secondary_color);
+}
+
+
