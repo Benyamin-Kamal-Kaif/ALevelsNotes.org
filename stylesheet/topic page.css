@@ -1,3 +1,46 @@
+
+/****** content *******/
+
+#infopart{
+    margin-top: 30px;
+}
+
+#infopart .flex-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#infopart .container .info{
+    background: var(--secondary_color);
+    width: 70%;
+    border-radius: 15px;
+}
+
+#infopart .container .topic-select{
+    width: 28%;
+    height: 100px;
+    border-radius: 15px;
+    background: var(--secondary_color);
+}
+
+#infopart .container .info p{
+    font-family: var(--primary_font);
+    color: var(--primary_color);
+}
+
+#infopart .container .info .text{
+    font-size: 1rem;
+    margin: 1rem 1.5rem;
+}
+
+#infopart .container .info .header{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+
 /************** location part  *********/
 #location-part .container{
     background: var(--secondary_color);
