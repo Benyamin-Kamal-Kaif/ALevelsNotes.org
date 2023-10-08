@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .options{
         display: none;
     }
@@ -20,6 +20,14 @@
 
     #contentpart .container .content{
         width: 100%;
+    }
+
+    #contentpart .container p{
+        font-size: 30px;
+    }
+
+    #contentpart .container .subject{
+        font-size: 18px;
     }
 }
 
