@@ -1,0 +1,62 @@
+#section{
+    margin-top: 20px;
+}
+
+#section .container a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 15px;
+    background: rgb(23,13,44);
+    background: linear-gradient(90deg, rgba(23,13,44,1) 0%, rgba(23,13,44,1) 46%, rgba(255,255,255,1) 100%);
+    border: 1px solid #fff;
+    margin-top: 20px;
+    color: var(--font_color);
+    font-family: var(--primary_font);
+    font-size: 22px;
+}
+
+
+#section .container a .text p{
+    position: relative;
+}
+
+#section .container a .text p:after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    bottom: 0px;
+    left: 0px;
+    background: var(--font_color);
+}
+
+#section .container a:hover  .text p::after{
+    width: 100%;
+    transition: 0.8s;
+    background: var(--font_color);
+}
+
+#section .container a .section-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#section .container a .section-content .text{
+    text-align: left;
+    padding: 20px;
+}
+
+#section .container a .section-content .img{
+    text-align: right;
+}
+
+#section .container a .img img{
+    padding-right: 20px;
+    margin-top: 14px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}

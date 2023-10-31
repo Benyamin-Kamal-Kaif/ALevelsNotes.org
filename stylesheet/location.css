@@ -1,0 +1,23 @@
+#location-part .container{
+    background: var(--secondary_color);
+    opacity: 70%;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#location-part .container span{
+    margin: 0px 5px;
+    color: black;
+}
+
+#location-part .container span{
+    color: var(--font_color);
+}
+
+#location-part .container a{
+    color: var(--font_color);
+    font-family: var(--primary_font);
+    font-weight: 700;
+    font-size: 15px;
+}
