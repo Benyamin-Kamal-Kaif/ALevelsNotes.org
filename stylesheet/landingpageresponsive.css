@@ -29,8 +29,15 @@
     #contentpart .container .subject{
         font-size: 18px;
     }
+
+
 }
 
 @media screen and (max-width:479px){
+    #contentpart .container .intro{
+        font-size: 60px;
+        line-height: 70px;
+        padding: 0 80px;
+    }
 
 }

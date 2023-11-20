@@ -1,3 +1,7 @@
+body{
+    background: #170d2c;
+}
+
 #section{
     margin-top: 20px;
 }
@@ -55,7 +59,6 @@
 #section .container a .img img{
     padding-right: 20px;
     margin-top: 14px;
-    margin-right: 20px;
     width: 50px;
     height: 50px;
     margin-right: 10px;

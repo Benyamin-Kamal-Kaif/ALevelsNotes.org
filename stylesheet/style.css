@@ -142,7 +142,7 @@ body{
 
 
 #contentpart{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 #contentpart .flex-container{
     justify-content: space-between;
@@ -225,6 +225,7 @@ body{
 
 #footer-part .container{
     background: var(--secondary_color);
+    opacity: 70%;
     text-align: center;
     border-radius: 15px;
 }

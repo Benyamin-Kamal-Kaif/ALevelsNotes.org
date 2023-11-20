@@ -1,90 +1,52 @@
-
-/****** content *******/
-
-#infopart{
-    margin-top: 30px;
+body{
+    background: #170d2c;
 }
 
-#infopart .flex-container{
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#infopart .container .info{
-    background: var(--secondary_color);
-    width: 70%;
-    border-radius: 15px;
-}
-
-#infopart .container .topic-select{
-    width: 28%;
-    height: 100px;
-    border-radius: 15px;
-    background: var(--secondary_color);
-}
-
-#infopart .container .info p{
-    font-family: var(--primary_font);
-    color: var(--primary_color);
-}
-
-#infopart .container .info .text{
-    font-size: 1rem;
-    margin: 1rem 1.5rem;
-}
-
-#infopart .container .info .header{
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 1rem;
-    font-weight: 700;
-}
-
-
-/************** location part  *********/
-#location-part .container{
-    background: var(--secondary_color);
+#topic{
     margin-top: 20px;
-    border-radius: 15px;
+}
+
+#topic .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#topic .container .topic{
+    width: 40%;
+    margin: 20px;
     text-align: center;
 }
 
-#location-part .container span{
-    margin: 0px 5px;
-    color: black;
-}
-
-#location-part .container p{
-    color: var(--primary_color);
-    font-family: var(--primary_font);
-    font-weight: 700;
-    font-size: 15px;
-}
-
-#location-part .container a{
-    color: var(--primary_color);
-    font-family: var(--primary_font);
-    font-weight: 700;
-    font-size: 15px;
-}
-
-/****** content *******/
-#contentpart{
-    margin-top: 30px;
-}
-
-#contentpart .container .content{
-    background: var(--secondary_color);
-    width: 70%;
-    height: 100px;
+#topic .container .topic a{
+    padding: 20px 0px;
+    width: 100%;
+    display: inline-block;
+    background: #d9d9d9;
     border-radius: 15px;
+    border: 1px solid #D9D9D9;
+    font-family: var(--primary_font);
+    color: var(--primary_color);
+    font-size: 22px;
 }
 
-#contentpart .container .topic-select{
-    width: 28%;
-    height: 100px;
-    border-radius: 15px;
-    background: var(--secondary_color);
+#topic .container .topic a .sub{
+    position: relative;
+    padding: 10px;
 }
 
+#topic .container .topic a .sub:after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    bottom: 10px;
+    left: 0px;
+    background: var(--primary_color);
+}
 
+#topic .container .topic a:hover .sub::after{
+    width: 100%;
+    transition: 0.8s;
+    background: var(--primary_color);
+}
