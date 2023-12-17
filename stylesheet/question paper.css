@@ -1,0 +1,64 @@
+body{
+    background: #170d2c;
+}
+
+#topicalquestion{
+    margin-top: 30px;
+}
+
+#topicalquestion .container .topical{
+    display: flex;
+    flex-wrap: wrap;
+    background: #d7d8eb;
+}
+
+#topicalquestion .container .topical .heading{
+    width: 30%;
+    text-align: center;
+}
+
+#topicalquestion .container .topical .heading p{
+    margin: auto auto;
+    font-family: var(--primary_font);
+    color: var(--primary_color);
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+#topicalquestion .container .topical .topicpart{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topicalquestion .container .topical .topicpart .topic{
+    padding: 10px 10px;
+    margin-right: 10px;
+    font-family: var(--primary_font);
+    color: #d7d8eb;
+    border-radius: 30px;
+    font-size: 20px;
+    background: var(--primary_color);
+}
+
+#topicalquestion .container .topical .topicpart .topic span{
+    position: relative;
+}
+
+#topicalquestion .container .topical .topicpart .topic span:after{
+    content:'';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#topicalquestion .container .topical .topicpart .topic:hover span::after{
+    width: 100%;
+    transition: 0.8s;
+    background: #d7d8eb;
+    border-radius: 15px;
+}
+
