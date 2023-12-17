@@ -19,6 +19,7 @@ body{
 }
 
 #topic .container .topic a{
+    margin: 0 auto;
     padding: 20px 0px;
     width: 100%;
     display: inline-block;
@@ -30,23 +31,9 @@ body{
     font-size: 22px;
 }
 
-#topic .container .topic a .sub{
-    position: relative;
-    padding: 10px;
+#topic .container .topic a:hover{
+    background: var(--primary_color);
+    color: #d9d9d9;
+    transition: .5s;
 }
 
-#topic .container .topic a .sub:after{
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 3px;
-    bottom: 10px;
-    left: 0px;
-    background: var(--primary_color);
-}
-
-#topic .container .topic a:hover .sub::after{
-    width: 100%;
-    transition: 0.8s;
-    background: var(--primary_color);
-}
