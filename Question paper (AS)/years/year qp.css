@@ -1,0 +1,52 @@
+body{
+    background: #170d2c;
+}
+
+#paperpart .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#paperpart .container .box{
+    width: 48%;
+    background: #09020C;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-family: var(--primary_font);
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+
+#paperpart .container .box p{
+    margin: 20px;
+}
+
+#paperpart .container .box .variants{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#paperpart .container .box .variants a{
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+
+#paperpart .container .box .variants a:hover{
+    background: #fff;
+    color: #000;
+
+}
+
+
+

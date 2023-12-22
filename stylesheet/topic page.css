@@ -32,7 +32,7 @@ body{
 }
 
 #topic .container .topic a:hover{
-    background: var(--primary_color);
+    background: #170d2c;
     color: #d9d9d9;
     transition: .5s;
 }
