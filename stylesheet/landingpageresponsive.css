@@ -44,4 +44,17 @@
         width: 100%;
     }
 
+    #topicalquestion .container .topical{
+        flex-direction: column;
+    }
+
+    #topicalquestion .container .topical .heading{
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    #topicalquestion .container .topical .topicpart{
+        width: 100% !important;
+        text-align: center;
+    }
 }
